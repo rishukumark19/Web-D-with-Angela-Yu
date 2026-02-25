@@ -1,0 +1,9 @@
+{
+  "name": "web-d-with-angela-yu",
+  "version": "1.0.0",
+  "description": "Web Development course projects",
+  "scripts": {
+    "start:react": "cd React && npm start",
+    "start:js": "node Js/index.js"
+  }
+}
