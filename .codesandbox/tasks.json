@@ -1,0 +1,30 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "command": "cd React && pnpm install",
+      "name": "Installing Dependencies"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "start": {
+      "name": "start",
+      "command": "cd React && pnpm start",
+      "runAtStart": true
+    },
+    "build": {
+      "name": "build",
+      "command": "cd React && pnpm build"
+    },
+    "test": {
+      "name": "test",
+      "command": "cd React && pnpm test"
+    },
+    "eject": {
+      "name": "eject",
+      "command": "cd React && pnpm eject"
+    }
+  }
+}

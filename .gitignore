@@ -3,6 +3,6 @@ node_modules
 dist
 build
 .env
-.codesandbox/
-# but wait, I want to keep .codesandbox/tasks.json
-!.codesandbox/tasks.json
+# .codesandbox is keepable if it only contains tasks.json
+# node_modules is already ignored
+
