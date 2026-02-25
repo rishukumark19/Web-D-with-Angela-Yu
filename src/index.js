@@ -16,6 +16,7 @@ root.render(
         {fname} {lname}
       </li>
       <li>{Math.floor(Math.random() * 10)}</li>
+      <li>hello</li>
     </ul>
   </>
 );
